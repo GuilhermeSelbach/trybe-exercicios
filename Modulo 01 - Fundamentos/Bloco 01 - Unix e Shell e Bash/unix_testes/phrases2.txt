@@ -1,0 +1,7 @@
+Dia de aprendizado de mais comandos como input e output
+Aprendemos tambem controles de acesso pelo termina
+e finalizamos com processos e jobs tanto em primeiro plano fg
+quanto em segundo plano bg
+muito empolgado de estar na trybe
+Bélgica
+Bugaria
