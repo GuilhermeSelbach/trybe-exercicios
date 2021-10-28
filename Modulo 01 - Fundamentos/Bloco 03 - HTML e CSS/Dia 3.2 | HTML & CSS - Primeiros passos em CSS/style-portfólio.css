@@ -1,0 +1,83 @@
+ 
+            h1 {
+                background-color: #111d4a;
+                color: #fff8f0;
+                margin: auto;
+                text-align: center;
+            }
+
+            h2 {
+                background-color: #92140c;
+                color: #fff8f0;
+            }
+
+            body {
+                background-color: #1e1e24;
+            }
+
+            #name-complete {
+                font-family: "Times New Roman", Times, serif;
+            }
+
+            p {
+                font-family: "Lucida Console", "Courier New", monospace;
+                display: block;
+                color: #ffcf99; 
+                width: 700px;
+	            background-color: 
+	            color: white;
+	            padding: 10px 30px
+	            font-weigth: 700;
+	            text-decoration none;
+	            margin: 20px;
+	            display: block:
+	            text-align: center:
+	            border-radius: 5px:
+                
+            }
+
+            #list-habilits {
+                background-color: #92140c;
+            }
+
+            h3 {
+                color: #fff8f0;
+            }
+
+            ul {
+             color: #fff8f0;
+
+            }
+
+            li {
+                color: #ffcf99;
+                background-color: #1e1e24;
+            }
+
+            #perfil-photo {
+                background-color: #111d4a;
+                color: #fff8f0;
+                text-align: center;
+                margin: auto;
+                width: 500px;
+                font-weight: 700;
+                padding: 20px 25px;
+                display: block;
+                text-decoration: none;
+                border-radius: 5px;
+
+            }
+
+            #perfil-photo:hover {
+                color: #92140c;
+                background-color: #ffcf99;
+            }
+
+            .indice-preferences {
+                color: #92140c;
+            }
+
+            span {
+                text-decoration: none;
+                color: #ffcf99;
+            }
