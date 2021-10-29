@@ -1,0 +1,52 @@
+
+      h1 {
+        size: 65px;
+        color: orange;
+        font-family: sans-serif;
+        text-align: center;
+      }
+
+      ul {
+        background-color: palegreen;
+      }
+
+      .bgcolo {
+        background-color: powderblue;
+        font-style: ;
+      }
+
+      p {
+        font-weight: 600;
+        font-size: 3em;
+        text-decoration-line: underline ;
+      }
+
+      body {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      #coramarelo {
+        background-color: yellow;
+        font-style: italic;
+      }
+
+      #corvermelho {
+        background-color: red;
+      }
+
+      #cormarrom {
+        background-color: brown;
+      }
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
