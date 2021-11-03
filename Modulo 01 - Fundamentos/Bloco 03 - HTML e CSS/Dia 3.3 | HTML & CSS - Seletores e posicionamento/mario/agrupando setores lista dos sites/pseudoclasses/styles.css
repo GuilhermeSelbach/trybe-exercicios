@@ -1,11 +1,10 @@
 
 div:hover {
-    border-width: medium;
+    border-width: small;
     border-style: solid;
     border-color: rgba(116, 116, 192, 0.938);
 }
 
-/* <h3>Cor primária</h3> */
-a:link {
+ {
     background-color: #f4d35e;
 }
