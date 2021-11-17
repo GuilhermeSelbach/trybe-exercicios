@@ -66,14 +66,47 @@
       main.className = 'main-content';
       document.body.appendChild(main);
 
-      let section = document.createElement('section');
-      section.className = 'center-content';
-      document.body.children[2].appendChild(section);
+      let sectionCenter = document.createElement('section');
+      sectionCenter.className = 'center-content';
+      document.body.children[2].appendChild(sectionCenter);
 
       let paragraph = document.createElement('p');
       paragraph.innerText = 'O aforismo do grego antigo "conhece a ti mesmo" (grego: γνῶθι σεαυτόν, transliterado: gnōthi seauton; também ... σαυτόν ... sauton com o ε contraído), também comumente encontrado em português na forma "conhece-te a ti mesmo",[1] é uma das máximas délficas e foi inscrita no pronau (pátio) do Templo de Apolo em Delfos de acordo com o escritor Pausânias (10.24.1).[2] Em latim a frase, "conhece a ti mesmo", é geralmente dada como Nosce te ipsum[3] ou temet nosce.[4]';
       document.body.children[2].children[0].appendChild(paragraph);
+
+      let sectionLeft = document.createElement('section');
+      sectionLeft.className = 'left-content';
+      document.body.children[2].appendChild(sectionLeft);
+
+      let sectionRight = document.createElement('section');
+      sectionRight.className = 'right-content';
+      document.body.children[2].appendChild(sectionRight);
       
+      let image = document.createElement('img');
+      image.src = 'https://picsum.photos/200';
+      image.className = 'small-image';
+      document.body.children[2].children[1].appendChild(image);
+
+      let listaNaoOrdenada = {
+          um,
+          dois,
+          três,
+          quatro,
+          cinco,
+          seis,
+          sete,
+          oito,
+          nove,
+          dez,
+      }
+      for(let i = 0; i < listaNaoOrdenada.length; i += 1){
+          let lista = listaNaoOrdenada[i];
+
+          let listaNaoOrdenadaPronta = document.createElement('li');
+          listaNaoOrdenadaPronta.innerText = lista;
+
+          document.body.children[2].children[2].appendChild(listaNaoOrdenadaPronta);
+        }
     </script>
   </body>
 </html>
