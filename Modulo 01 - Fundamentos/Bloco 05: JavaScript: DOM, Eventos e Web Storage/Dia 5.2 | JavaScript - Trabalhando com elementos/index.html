@@ -58,37 +58,43 @@
   <body>
     <script>
       let titulo = document.createElement('h1');
-      titulo.id = 'titulo';
+      titulo.className = 'tittle';
       titulo.innerText = 'Exercício 5.2 - JavaScript DOM'
       document.body.appendChild(titulo);
+
 
       let main = document.createElement('main');
       main.className = 'main-content';
       document.body.appendChild(main);
 
+
       let sectionCenter = document.createElement('section');
       sectionCenter.className = 'center-content';
       document.body.children[2].appendChild(sectionCenter);
+
 
       let paragraph = document.createElement('p');
       paragraph.innerText = 'O aforismo do grego antigo "conhece a ti mesmo" (grego: γνῶθι σεαυτόν, transliterado: gnōthi seauton; também ... σαυτόν ... sauton com o ε contraído), também comumente encontrado em português na forma "conhece-te a ti mesmo",[1] é uma das máximas délficas e foi inscrita no pronau (pátio) do Templo de Apolo em Delfos de acordo com o escritor Pausânias (10.24.1).[2] Em latim a frase, "conhece a ti mesmo", é geralmente dada como Nosce te ipsum[3] ou temet nosce.[4]';
       document.body.children[2].children[0].appendChild(paragraph);
 
+
       let sectionLeft = document.createElement('section');
       sectionLeft.className = 'left-content';
       document.body.children[2].appendChild(sectionLeft);
+
 
       let sectionRight = document.createElement('section');
       sectionRight.className = 'right-content';
       document.body.children[2].appendChild(sectionRight);
       
+
       let image = document.createElement('img');
       image.src = 'https://picsum.photos/200';
       image.className = 'small-image';
       document.body.children[2].children[1].appendChild(image);
 
+
       let listaNaoOrdenada = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
-         
       for(let i = 0; i < listaNaoOrdenada.length; i += 1){
           let lista = listaNaoOrdenada[i];
 
@@ -97,6 +103,21 @@
 
           document.body.children[2].children[2].appendChild(listaNaoOrdenadaPronta);
         }
+
+
+        let titulo1 = document.createElement('h3');
+        titulo1.className = 'description';
+        document.body.children[2].appendChild(titulo1);
+
+
+        let titulo2 = document.createElement('h3');
+        titulo2.className = 'description';
+        document.body.children[2].appendChild(titulo2);
+
+
+        let titulo3 = document.createElement('h3');
+        titulo3.className = 'description';
+        document.body.children[2].appendChild(titulo3);
     </script>
   </body>
 </html>
